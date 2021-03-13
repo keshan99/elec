@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="movie-container">
+    <label >Pick a voltage:</label>
+    <select id="pickres">
+      <option value="4">4V</option>
+      <option value="5">5V</option>
+      <option value="6">6V</option>
+      <option value="7">7V</option>
+      <option value="8">8V</option>
+      <option value="9">9V</option>
+      <option value="10">10V</option>
+    </select>
+ </div>
+
+ <ul class="showcase">
+   <li>
+     <div class="seat"></div>
+     <small>The available resistors are from E12 range: (10; 12; 15; 18; 22; 27; 33; 39; 47; 56; 68; 82)x10</small>
+   </li>
+ </ul>
+
+
+  <div class="container">
+
+    <img src="lab.jpg" alt="circuit" 
+    style="width:274.25px;
+    height:203px;">
+    
+
+  </div>
+
+  <p class="text">R1: <span id="R1">0</span> Ω</P>
+   <p class="text"> R2: <span id="R2">0</span> Ω</p>
+
+   <p>if you want you can use KΩ or MΩ</p>
+
+   <button onclick="myFunction()" class="button" id="next">other</button>
+
+
+
+
+
+  <script src="app.js"></script>
+</body>
+</html>
+
